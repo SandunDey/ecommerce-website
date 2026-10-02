@@ -30,7 +30,7 @@
       "originalPrice": 299.99,
       "rating": 4.8,
       "reviewsCount": 142,
-      "stock": 24,
+      "stock": 22,
       "featured": true,
       "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
       "badge": "Bestseller",
@@ -318,6 +318,80 @@
     }
   ],
   "orders": [
+    {
+      "id": "ord_1790945231969",
+      "orderNumber": "ORD-983216",
+      "userId": "guest_1790945231969",
+      "customerName": "Maya Patel",
+      "customerEmail": "maya@example.com",
+      "phone": "+1 555-4321",
+      "shippingAddress": {
+        "street": "456 Innovation Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94105",
+        "country": "United States"
+      },
+      "items": [
+        {
+          "productId": "prod_1",
+          "name": "Aura Wireless Noise-Cancelling Headphones",
+          "price": 249.99,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+          "itemTotal": 249.99
+        }
+      ],
+      "subtotal": 249.99,
+      "discount": 50,
+      "couponCode": "AUSPIFY20",
+      "shippingFee": 0,
+      "tax": 10,
+      "total": 209.99,
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Shipped",
+      "trackingNumber": "TRK-EXP-9923841",
+      "createdAt": "2026-10-02T12:47:11.969Z",
+      "updatedAt": "2026-10-02T12:47:12.033Z"
+    },
+    {
+      "id": "ord_1790945186061",
+      "orderNumber": "ORD-309618",
+      "userId": "guest_1790945186061",
+      "customerName": "Maya Patel",
+      "customerEmail": "maya@example.com",
+      "phone": "+1 555-4321",
+      "shippingAddress": {
+        "street": "456 Innovation Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94105",
+        "country": "United States"
+      },
+      "items": [
+        {
+          "productId": "prod_1",
+          "name": "Aura Wireless Noise-Cancelling Headphones",
+          "price": 249.99,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+          "itemTotal": 249.99
+        }
+      ],
+      "subtotal": 249.99,
+      "discount": 50,
+      "couponCode": "AUSPIFY20",
+      "shippingFee": 0,
+      "tax": 10,
+      "total": 209.99,
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Paid",
+      "orderStatus": "Shipped",
+      "trackingNumber": "TRK-EXP-9923841",
+      "createdAt": "2026-10-02T12:46:26.061Z",
+      "updatedAt": "2026-10-02T12:46:26.123Z"
+    },
     {
       "id": "ord_1790945068868",
       "orderNumber": "ORD-255341",
